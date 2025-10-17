@@ -24,7 +24,9 @@
     "categories": [
         "Programming Languages"
     ],
-    "activationEvents": ["onLanguage:mateo"],
+    "activationEvents": [
+        "onLanguage:mateo"
+    ],
     "main": "./out/extension.js",
     "browser": "./out/extension.js",
     "contributes": {
@@ -298,11 +300,11 @@
         "url": "^0.11.0"
     },
     "devDependencies": {
-        "@types/node": "^10.17.60",
-        "@types/vscode": "1.57.0",
+        "@types/node": "^24.8.1",
+        "@types/vscode": "1.105.0",
         "ts-loader": "^9.4.2",
         "tslint": "^5.16.0",
-        "typescript": "^4.9.5",
+        "typescript": "^5.9.3",
         "webpack": "^5.76.3",
         "webpack-cli": "^5.0.1"
     }
